@@ -70,10 +70,10 @@ Then, I used dig to verify the validity of DNS records for isc.org.
 
 
 ![](https://i.imgur.com/Makv6MH.png)
-
 <p align=center>
 <i> Figure 2: dig isc.org after enabling DNSSec </i>
-</o>
+</p>
+
 2. For validating, we need to look at the returned flags. We have the "AD (Authentic Data)" flag that indicates the resolver believes the responses to be authentic - that is, validated by DNSSEC
 
 
